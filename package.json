@@ -1,0 +1,33 @@
+{
+  "name" : "nokomis-plugins",
+  "version" : "0.0.1",
+  "description" : "Plugins for nokomis",
+  "main" : "./index.js",
+  "dependencies" : {
+    "bunyan": "*",
+    "cookies": "~0.2.2",
+    "error-page" : "*",
+    "extendable" : ">=0.0.3",
+    "glob": "3",
+    "keygrip": "~0.2.0",
+    "negotiator": "~0.2.3",
+    "nokomis": "*",
+    "underscore" : "*",
+    "request-timeout" : "*"
+  },
+  "devDependencies" : {
+    "mocha" : "*",
+    "sinon" : "*"
+  },
+  "engines" : {
+    "node" : ">=0.8.0",
+    "npm" : ">=1.1.21"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/tstmedia/nokomis-plugins.git"
+  },
+  "scripts" : {
+    "test" : "NODE_ENV=test mocha -R spec"
+  }
+}

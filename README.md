@@ -1,4 +1,4 @@
 nokomis-plugins
-===============
+=======
 
-Plugins for TST's amazing Nokomis framework.
+A collection of plugins for [nokomis](https://github.com/tstmedia/nokomis).
