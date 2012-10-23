@@ -11,7 +11,7 @@
     "glob": "3",
     "keygrip": "~0.2.0",
     "negotiator": "~0.2.3",
-    "nokomis": "*",
+    "nokomis": "git://github.com/tstmedia/nokomis.git",
     "underscore" : "*",
     "request-timeout" : "*"
   },
