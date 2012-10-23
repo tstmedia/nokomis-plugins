@@ -40,6 +40,7 @@ describe('Logging', function() {
 
     it('should log response on request finished', function(done) {
       instance.req.log.info = sinon.spy()
+      assert(!instance.req.log.info.called)
       instance.req.emit('finish')
       assert(instance.req.log.info.called)
       done()
