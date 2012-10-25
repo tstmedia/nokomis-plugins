@@ -12,7 +12,7 @@
     "keygrip": "~0.2.0",
     "krumkake": "*",
     "negotiator": "~0.2.x",
-    "nokomis": "git://github.com/tstmedia/nokomis.git",
+    "nokomis": "git://github.com/tstmedia/nokomis.git#plugin-removal",
     "underscore" : "*",
     "request-timeout" : "*"
   },
