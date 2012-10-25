@@ -34,8 +34,8 @@ describe('Errors', function() {
 
   describe('Exists', function() {
 
-    it('should add error method to controller', function(done) {
-      assert(instance.error)
+    it('should override error method to controller', function(done) {
+      assert(instance.error !== Controller.prototype.error)
       done()
     })
 

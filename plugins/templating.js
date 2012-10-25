@@ -14,6 +14,7 @@ module.exports = Plugin.extend({
 
   run: function(instance) {
     instance.tmpl = this.tmpl
+    instance.render = this.render
   },
 
   render: function(callback) {
