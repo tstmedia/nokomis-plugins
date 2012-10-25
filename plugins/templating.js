@@ -1,9 +1,9 @@
-var Plugin = require('../plugin')
+var Plugin = require('nokomis/plugin')
 var _ = require('underscore')
 var path = require('path')
 var extendable = require('extendable')
 
-var Templating = require('../templating')
+var Templating = require('nokomis/templating')
 
 module.exports = Plugin.extend({
 
