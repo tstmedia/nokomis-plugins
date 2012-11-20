@@ -107,11 +107,14 @@ function handle500(req, res, data) {
 function handleError(req, res, data, template) {
   console.error('Responding with error', data)
 
-  delete data.options
-  delete data.stack
-  delete data.error
+  if (this.config.NODE_ENV != 'development') {
+    delete data.options
+    delete data.stack
+    delete data.error
+  }
 
   this.template = template || 'errors/default'
+  this.templateOptions.layout = 'errors/layout'
   this.model = data
   return this._render(template, data)
 }
