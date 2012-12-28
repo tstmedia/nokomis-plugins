@@ -25,7 +25,6 @@ function init(C, conf) {
 }
 
 module.exports = {
-  Controller: Controller,
   create: create,
   init:init
 }
