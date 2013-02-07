@@ -1,6 +1,6 @@
 {
   "name" : "nokomis-plugins",
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "description" : "Plugins for nokomis",
   "main" : "./index.js",
   "dependencies" : {
@@ -12,9 +12,11 @@
     "keygrip": "~0.2.0",
     "krumkake": ">=0.1.1",
     "negotiator": "~0.2.x",
-    "nokomis": "git://github.com/tstmedia/nokomis.git",
     "underscore" : "*",
     "request-timeout" : "*"
+  },
+  "peerDependencies" : {
+    "nokomis": "git://github.com/tstmedia/nokomis.git"
   },
   "devDependencies" : {
     "mocha" : "*",
