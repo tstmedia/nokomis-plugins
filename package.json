@@ -18,6 +18,7 @@
     "nokomis": "git://github.com/tstmedia/nokomis"
   },
   "devDependencies" : {
+    "nokomis": "git://github.com/tstmedia/nokomis",
     "mocha" : "*",
     "sinon" : "*"
   },
