@@ -7,7 +7,6 @@
     "bunyan": "*",
     "cookies": "~0.3.x",
     "error-page" : "*",
-    "extendable" : "git://github.com/mikefrey/extendable-1",
     "glob": "3",
     "keygrip": "~0.2.0",
     "krumkake": ">=0.1.1",
