@@ -15,10 +15,10 @@
     "request-timeout" : "*"
   },
   "peerDependencies" : {
-    "nokomis": "git://github.com/tstmedia/nokomis"
+    "nokomis": ">=0.2.6"
   },
   "devDependencies" : {
-    "nokomis": "git://github.com/tstmedia/nokomis",
+    "nokomis": ">=0.2.6",
     "mocha" : "*",
     "sinon" : "*"
   },
