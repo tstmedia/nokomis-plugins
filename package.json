@@ -1,36 +1,36 @@
 {
-  "name" : "nokomis-plugins",
-  "version" : "0.0.5",
-  "description" : "Plugins for nokomis",
-  "main" : "./index.js",
-  "dependencies" : {
+  "name": "nokomis-plugins",
+  "version": "0.0.6",
+  "description": "Plugins for nokomis",
+  "main": "./index.js",
+  "dependencies": {
     "bunyan": "0.18.x",
     "cookies": "~0.3.x",
-    "error-page" : "*",
+    "error-page": "*",
     "glob": "3",
     "keygrip": "~0.2.0",
     "krumkake": ">=0.1.1",
     "negotiator": "~0.2.x",
-    "underscore" : "*",
-    "request-timeout" : "*"
+    "underscore": "*",
+    "request-timeout": "*"
   },
-  "peerDependencies" : {
+  "peerDependencies": {
     "nokomis": ">=0.2.6"
   },
-  "devDependencies" : {
+  "devDependencies": {
     "nokomis": ">=0.2.6",
-    "mocha" : "*",
-    "sinon" : "*"
+    "mocha": "*",
+    "sinon": "*"
   },
-  "engines" : {
-    "node" : ">=0.8.0",
-    "npm" : ">=1.2"
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/tstmedia/nokomis-plugins.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tstmedia/nokomis-plugins.git"
   },
-  "scripts" : {
-    "test" : "NODE_ENV=test mocha -R spec"
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec"
   }
 }
