@@ -1,4 +1,3 @@
-nokomis-plugins
-=======
+# This Repository Has Moved
 
-A collection of plugins for [nokomis](https://github.com/tstmedia/nokomis).
+No new commits will be made here. Visit [sportngin/nokomis-plugins](https://github.com/sportngin/nokomis-plugins) for the latest work on this project.
